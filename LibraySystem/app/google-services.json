@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "936637850503",
+    "project_id": "libraryms-25c26",
+    "storage_bucket": "libraryms-25c26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936637850503:android:fca879fe6e946231abe922",
+        "android_client_info": {
+          "package_name": "com.example.libraysystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936637850503-d0ba9f5a0bj2uh7g2ha5mdihnng4026n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqTloSpTuvmYJCz6i7Zdbj-HRYx0-XQU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936637850503-d0ba9f5a0bj2uh7g2ha5mdihnng4026n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
