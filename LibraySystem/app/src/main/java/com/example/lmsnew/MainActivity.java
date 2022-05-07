@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         final EditText edit_name = findViewById(R.id.edit_name);
         final EditText edit_position= findViewById(R.id.edit_position);
+        final EditText edit_nic= findViewById(R.id.edit_nic);
         Button btn=findViewById(R.id.btn_submit);
         Button btn_open = findViewById(R. id.btn_open);
 
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         btn.setOnClickListener(v->{
-            Employee emp = new Employee(edit_name.getText().toString(),edit_position.getText().toString());
+            Employee emp = new Employee(edit_name.getText().toString(),edit_position.getText().toString(),edit_nic.getText().toString());
             if(emp_edit == null) {
                 dao.add(emp).addOnSuccessListener(suc -> {
                     Toast.makeText(this, "Record is inserted", Toast.LENGTH_SHORT).show();

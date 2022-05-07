@@ -10,10 +10,13 @@ public class Employee implements Serializable {
     private String key;
     private String name;
     private String position;
+    private String nic;
     public Employee(){};
-    public Employee(String name, String position){
+    public Employee(String name, String position, String nic){
         this.name= name;
         this.position = position;
+        this.nic= nic;
+
     }
     public String getName() {
         return name;

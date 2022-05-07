@@ -33,8 +33,6 @@ public class RVActivity extends AppCompatActivity {
          recyclerView.setAdapter(adapter);
          dao = new DAOEmployee();
          loadData();
-
-
     }
 
     private void loadData() {
@@ -46,7 +44,7 @@ public class RVActivity extends AppCompatActivity {
                     Employee emp = data.getValue(Employee.class);
                     emp.setKey(data.getKey());
                     emps.add(emp);
-//                    String key = data.getKey();
+                    String key = data.getKey();
                 }
                 adapter.setItems(emps);
                 adapter.notifyDataSetChanged();
