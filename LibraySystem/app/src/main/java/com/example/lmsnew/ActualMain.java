@@ -25,7 +25,7 @@ public class ActualMain extends AppCompatActivity {
         setContentView(binding.getRoot());
         replaceFragment(new HomeFragment());
 
-        binding.bottomNavigationView2.setOnItemReselectedListener(item -> {
+        binding.bottomNavigationView2.setOnItemSelectedListener(item -> {
             switch (item.getItemId()){
                 case R.id.nav_home:
                     replaceFragment(new HomeFragment());
@@ -38,7 +38,7 @@ public class ActualMain extends AppCompatActivity {
                     break;
             }
 
-//            return true;
+            return true;
         });
     }
     private void replaceFragment(Fragment fragment){
