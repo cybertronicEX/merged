@@ -8,6 +8,7 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.app.Activity;
 import android.app.ActivityManager;
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.lmsnew.databinding.ActivityActualMainBinding;
@@ -30,6 +31,7 @@ public class ActualMain extends AppCompatActivity {
                     replaceFragment(new HomeFragment());
                     break;
                 case R.id.nav_users:
+                    startActivity(new Intent(ActualMain.this,MainActivity.class));
                     break;
                 case R.id.nav_settings:
                     replaceFragment(new SettingsFragment());
