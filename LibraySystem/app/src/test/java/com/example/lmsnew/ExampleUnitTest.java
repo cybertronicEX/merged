@@ -1,4 +1,4 @@
-package com.example.libraysystem;
+package com.example.lmsnew;
 
 import org.junit.Test;
 
