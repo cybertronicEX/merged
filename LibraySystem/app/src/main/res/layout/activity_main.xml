@@ -15,7 +15,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add new member to the system"
+        android:text="Add new member to the library"
         android:textSize="18dp"
         android:textColor="@color/purple_200"
         android:layout_marginTop="20dp"
@@ -73,6 +73,7 @@
         android:id="@+id/btn_submit"
         android:background="@android:color/holo_blue_dark"
         android:text="ADD member"
+        android:layout_marginTop="20dp"
         android:textColor="@android:color/white"/>
 
     <Button
