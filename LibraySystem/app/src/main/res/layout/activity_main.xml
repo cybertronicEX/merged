@@ -7,11 +7,15 @@
     tools:context=".MainActivity"
     android:padding="15dp"
     android:orientation="vertical">
+
 <!--    <ImageView-->
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="wrap_content"-->
 
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add new Member"/>
 
 
 
@@ -27,7 +31,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Position"/>
+        android:text="Author"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -49,6 +53,27 @@
         android:text="open"
         android:layout_marginTop="10dp"
         android:textColor="@android:color/white"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_switch"
+        android:background="@android:color/holo_blue_dark"
+        android:text="SWITCH"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"/>
+<!--    <FrameLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="46dp">-->
+
+<!--    </FrameLayout>-->
+
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="64dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        app:menu="@menu/bottom_nav_menu"-->
+<!--        />-->
 
 
 </LinearLayout>

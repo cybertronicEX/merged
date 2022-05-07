@@ -21,6 +21,9 @@ public class MainActivity extends AppCompatActivity {
         final EditText edit_position= findViewById(R.id.edit_position);
         Button btn=findViewById(R.id.btn_submit);
         Button btn_open = findViewById(R. id.btn_open);
+
+        configureNextButton();
+
         btn_open.setOnClickListener(v->{
             Intent intent = new Intent(MainActivity.this, RVActivity.class);
             startActivity(intent);
@@ -73,6 +76,16 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+
+    }
+    private void configureNextButton(){
+        Button nextButton = (Button) findViewById(R.id.btn_switch);
+        nextButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,ActualMain.class));
+            }
+        });
 
     }
 }
