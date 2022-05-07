@@ -8,19 +8,22 @@
     android:padding="15dp"
     android:orientation="vertical">
 
-<!--    <ImageView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:src="@drawable/elib_logo_only" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Add new member to the library"
         android:textSize="18dp"
+        android:gravity="center"
         android:textColor="@color/purple_200"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginLeft="50dp"/>
+        android:layout_marginBottom="20dp"/>
+
+
 
 
 

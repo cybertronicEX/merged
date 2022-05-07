@@ -10,6 +10,7 @@ import android.app.Activity;
 import android.app.ActivityManager;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Window;
 
 import com.example.lmsnew.databinding.ActivityActualMainBinding;
 import com.example.lmsnew.databinding.ActivityMainBinding;
@@ -21,6 +22,8 @@ public class ActualMain extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getSupportActionBar().hide();
         binding = ActivityActualMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         replaceFragment(new HomeFragment());

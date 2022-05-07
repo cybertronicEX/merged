@@ -13,6 +13,12 @@
         android:textSize="26dp"
         android:layout_gravity="center"/>
 
+    <ImageView
+        android:layout_width="242dp"
+        android:layout_height="137dp"
+        android:layout_gravity="center|top"
+        android:layout_margin="50dp"
+        android:src="@drawable/elib_logo" />
 <!--    <Button-->
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="wrap_content"-->
