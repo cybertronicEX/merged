@@ -11,7 +11,8 @@
         android:theme="@style/Theme.LMSnew">
         <activity
             android:name=".ActualMain"
-            android:exported="true">
+            android:exported="true"
+            android:label="E-LIBRARIAN">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,7 +25,8 @@
             />
         <activity
             android:name=".MainActivity"
-            android:exported="false">
+            android:exported="false"
+            android:label="E-LIBRARIAN">
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 

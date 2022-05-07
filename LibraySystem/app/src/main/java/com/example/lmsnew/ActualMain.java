@@ -36,6 +36,9 @@ public class ActualMain extends AppCompatActivity {
                 case R.id.nav_settings:
                     replaceFragment(new SettingsFragment());
                     break;
+                case R.id.nav_books:
+                    replaceFragment(new BooksFragment());
+                    break;
             }
 
             return true;
