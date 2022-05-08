@@ -26,7 +26,22 @@
         <activity
             android:name=".MainActivity"
             android:exported="false"
-            android:label="E-LIBRARIAN">
+            android:label="E-LIBRARIAN"/>
+
+        <activity
+            android:name=".UpdateActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity2"/>
+        <activity
+            android:name=".AddActivity"
+            android:exported="false"
+            android:label="Add Book"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true"
+            android:label="Library Management">
+
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 

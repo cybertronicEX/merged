@@ -3,6 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Acer/OneDrive/Documents/New folder/MAD test 2/2022MAD/LibraySystem/app/src/main/res/drawable/ic_add.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/OneDrive/Documents/New folder/MAD test 2/2022MAD/LibraySystem/app/src/main/res/drawable/ic_delete.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/OneDrive/Documents/New folder/MAD test 2/2022MAD/LibraySystem/app/src/main/res/drawable/ic_empty.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/OneDrive/Documents/New folder/MAD test 2/2022MAD/LibraySystem/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/OneDrive/Documents/New folder/MAD test 2/2022MAD/LibraySystem/app/src/main/res/layout/activity_add.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/OneDrive/Documents/New folder/MAD test 2/2022MAD/LibraySystem/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/OneDrive/Documents/New folder/MAD test 2/2022MAD/LibraySystem/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/OneDrive/Documents/New folder/MAD test 2/2022MAD/LibraySystem/app/src/main/res/layout/activity_update.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/OneDrive/Documents/New folder/MAD test 2/2022MAD/LibraySystem/app/src/main/res/layout/fragment_books.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/OneDrive/Documents/New folder/MAD test 2/2022MAD/LibraySystem/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/OneDrive/Documents/New folder/MAD test 2/2022MAD/LibraySystem/app/src/main/res/layout/fragment_settings.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/OneDrive/Documents/New folder/MAD test 2/2022MAD/LibraySystem/app/src/main/res/layout/laout_items.xml" value="0.2" />
+        <entry key="..\:/Users/Acer/OneDrive/Documents/New folder/MAD test 2/2022MAD/LibraySystem/app/src/main/res/layout/my_row.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/OneDrive/Documents/New folder/MAD test 2/2022MAD/LibraySystem/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2" />
+        <entry key="..\:/Users/Acer/OneDrive/Documents/New folder/MAD test 2/2022MAD/LibraySystem/app/src/main/res/menu/my_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/OneDrive/Documents/New folder/MAD test 2/2022MAD/LibraySystem/app/src/main/res/menu/option_menu.xml" value="0.2" />
         <entry key="app/src/main/res/drawable/custom_button_back.xml" value="0.147" />
         <entry key="app/src/main/res/drawable/progress_back.xml" value="0.147" />
         <entry key="app/src/main/res/drawable/round_drawable.xml" value="0.22" />
