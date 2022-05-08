@@ -39,7 +39,7 @@
             android:parentActivityName=".MainActivity2" />
         <activity
             android:name=".MainActivity2"
-            android:exported="true"
+            android:exported="false"
             android:label="Library Management">
 
 <!--            <intent-filter>-->

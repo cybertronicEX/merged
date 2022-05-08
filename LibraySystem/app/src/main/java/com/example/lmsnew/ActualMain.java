@@ -40,7 +40,8 @@ public class ActualMain extends AppCompatActivity {
                     replaceFragment(new SettingsFragment());
                     break;
                 case R.id.nav_books:
-                    replaceFragment(new BooksFragment());
+                    startActivity(new Intent(ActualMain.this,MainActivity2.class));
+
                     break;
             }
 
