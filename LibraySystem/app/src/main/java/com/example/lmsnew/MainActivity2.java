@@ -128,7 +128,7 @@ public class MainActivity2 extends AppCompatActivity {
 
             }
         });
-        builder.create().show();
+        builder.create().show(); ;
 
 
     }
